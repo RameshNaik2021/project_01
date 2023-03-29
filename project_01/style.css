@@ -3,6 +3,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body{
     width: 80%;
     height: 80%;
@@ -22,4 +27,62 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    right: 100px;
+    justify-content: space-evenly;
+}
+nav ul li:first-child{
+    font: bold;
+    font-weight: 800;
+}
+nav button{
+position: relative;
+  padding: 12px 30px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 254, 254);
+    border-radius: 10px;
+    background: #490e8d;
+}
+.nav{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+.items{
+    display: flex;
+    color: rgb(104, 101, 101);
+}
+.container{
+    display: flex;
+}
+.h1{
+    text-size-adjust: 100px;
+    font-size: 60px;
+    position: relative;
+    margin-top: 30%;
+}
+.butt{
+    background-color: rgb(69, 69, 202);
+    text-align: center;
+    padding: 6px 30px;
+    border-radius: 10px;
+    background: #6818be;
+    color: rgb(255, 254, 254);
+    padding: 20px 38px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.p{
+    color: rgb(104, 101, 101);
+    font-size: 20px;
+    position: relative;
+    margin-top: 5%;
+ 
+}
+.container{
+    position: relative;
+    margin-left: 10%;
 }
