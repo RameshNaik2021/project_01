@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    height: 80%;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20%;
+}
